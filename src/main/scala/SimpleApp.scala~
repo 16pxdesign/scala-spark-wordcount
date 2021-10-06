@@ -1,0 +1,18 @@
+package spark.wordcount
+
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+
+object SimpleApp {
+  def main(args: Array[String]) {
+    val conf = new SparkConf().setAppName("Simple Application")
+    val sc = new SparkContext(conf)
+    val letters = Array('a','b','c','b','c','c','d','e','f')
+    val myRDD = sc.parallelize(letters)
+    val myMappedRDD = myRDD.map(letter => (letter, 1))
+    val myReducedRDD = myMappedRDD.reduceByKey(_+_)
+    myReducedRDD.collect().foreach(println)
+  }
+}
+

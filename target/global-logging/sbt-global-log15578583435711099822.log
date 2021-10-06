@@ -1,0 +1,66 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 15.0.1)
+[debug] Load.defaultLoad until apply took 567.0352ms
+[debug]           Load.loadUnit: plugins took 115.8317ms
+[debug]           Load.loadUnit: defsScala took 0.2772ms
+[debug] [Loading] Scanning directory F:\SPARK APP TAKS 2\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in F:\SPARK APP TAKS 2\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.5839 ms
+[debug]               Load.resolveProject(spark-app-taks-2-build) took 55.5639ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-app-taks-2-build, base: F:\SPARK APP TAKS 2\project, plugins: List(<none>))) took 115.9279ms
+[debug] [Loading] Done in F:\SPARK APP TAKS 2\project, returning: (spark-app-taks-2-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 143.4155ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.4968ms
+[debug]         Load.loadUnit(file:/F:/SPARK%20APP%20TAKS%202/project/, ...) took 277.2468ms
+[debug]       Load.apply: load took 486.9703ms
+[debug]       Load.apply: resolveProjects took 8.3441ms
+[debug]       Load.apply: finalTransforms took 82.3053ms
+[debug]       Load.apply: config.delegates took 10.5201ms
+[debug]       Load.apply: Def.make(settings)... took 1140.466ms
+[debug]       Load.apply: structureIndex took 135.0153ms
+[debug]       Load.apply: mkStreams took 1.9052ms
+[info] loading project definition from F:\SPARK APP TAKS 2\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5501.8353ms
+[debug]     Load.loadUnit: defsScala took 0.0065ms
+[debug] [Loading] Scanning directory F:\SPARK APP TAKS 2
+[debug]       Load.loadUnit: mkEval took 5.6801ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in F:\SPARK APP TAKS 2, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2909 ms
+[info] loading settings for project spark-app-taks-2 from simple.sbt ...
+[debug]         Load.resolveProject(spark-app-taks-2) took 4.902ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spark-app-taks-2, base: F:\SPARK APP TAKS 2, plugins: List(<none>))) took 8.1131ms
+[debug] [Loading] Done in F:\SPARK APP TAKS 2, returning: (spark-app-taks-2)
+[debug]     Load.loadUnit: loadedProjectsRaw took 172.0144ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.9313ms
+[debug]   Load.loadUnit(file:/F:/SPARK%20APP%20TAKS%202/, ...) took 5693.0171ms
+[debug] Load.apply: load took 5724.8012ms
+[debug] Load.apply: resolveProjects took 0.1346ms
+[debug] Load.apply: finalTransforms took 11.9016ms
+[debug] Load.apply: config.delegates took 0.4285ms
+[debug] Load.apply: Def.make(settings)... took 138.066ms
+[debug] Load.apply: structureIndex took 43.3963ms
+[debug] Load.apply: mkStreams took 0.002ms
+[info] set current project to Simple Project (in build file:/F:/SPARK%20APP%20TAKS%202/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-e1529b78c5ac6ee3ba90
+[debug] Forcing garbage collection...

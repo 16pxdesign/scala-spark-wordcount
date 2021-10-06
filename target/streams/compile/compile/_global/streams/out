@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/media/USB/SPARK APP TAKS 2/src/main/scala/WordCount.scala:3:12: object apache is not a member of package org[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext[0m[0J
+[0m[[0m[31merror[0m] [0m[0m           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/media/USB/SPARK APP TAKS 2/src/main/scala/WordCount.scala:4:12: object apache is not a member of package org[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext._[0m[0J
+[0m[[0m[31merror[0m] [0m[0m           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/media/USB/SPARK APP TAKS 2/src/main/scala/WordCount.scala:5:12: object apache is not a member of package org[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkConf[0m[0J
+[0m[[0m[31merror[0m] [0m[0m           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/media/USB/SPARK APP TAKS 2/src/main/scala/WordCount.scala:10:16: not found: type SparkConf[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval conf = new SparkConf().setAppName("word count")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m               ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/media/USB/SPARK APP TAKS 2/src/main/scala/WordCount.scala:11:14: not found: type SparkContext[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval sc = new SparkContext(conf)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m             ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m[0J
